@@ -1,0 +1,4 @@
+#Thu Mar 09 12:39:39 MSK 2023
+base.0=/Users/ganslev/Downloads/Assignment_1_Arseniy_Levochkin/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
