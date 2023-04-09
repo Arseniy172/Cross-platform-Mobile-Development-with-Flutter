@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1783862981/android.firebase_crashlytics.iml" filepath="$PROJECT_DIR$/.idea/modules/-1783862981/android.firebase_crashlytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1303031397/io.flutter.plugins.firebase.cloudfirestore.android.cloud_firestore.iml" filepath="$PROJECT_DIR$/.idea/modules/1303031397/io.flutter.plugins.firebase.cloudfirestore.android.cloud_firestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1175678375/io.flutter.plugins.firebase.core.android.firebase_core.iml" filepath="$PROJECT_DIR$/.idea/modules/-1175678375/io.flutter.plugins.firebase.core.android.firebase_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1976666248/io.flutter.plugins.firebase.database.android.firebase_database.iml" filepath="$PROJECT_DIR$/.idea/modules/1976666248/io.flutter.plugins.firebase.database.android.firebase_database.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/742ff8eb8d05ace4bd06c22a1950399b/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/742ff8eb8d05ace4bd06c22a1950399b/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/742ff8eb8d05ace4bd06c22a1950399b/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/742ff8eb8d05ace4bd06c22a1950399b/core-1.6.0/res/drawable/notification_bg.xml"
+    }
+]

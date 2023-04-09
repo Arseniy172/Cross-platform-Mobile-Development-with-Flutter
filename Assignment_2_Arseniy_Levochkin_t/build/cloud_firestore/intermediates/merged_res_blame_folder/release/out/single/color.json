@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

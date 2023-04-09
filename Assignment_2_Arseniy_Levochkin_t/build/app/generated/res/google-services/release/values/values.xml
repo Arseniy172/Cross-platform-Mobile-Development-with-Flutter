@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">107658552836-a0ug2pqlfpogni4vr2todf93jjnsc37i.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">107658552836</string>
+    <string name="google_api_key" translatable="false">AIzaSyA7LrFUSk5Rg2nQ8h4WsuW_nfAkajSXCU0</string>
+    <string name="google_app_id" translatable="false">1:107658552836:android:e036e4b670158c8c04f751</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA7LrFUSk5Rg2nQ8h4WsuW_nfAkajSXCU0</string>
+    <string name="google_storage_bucket" translatable="false">chucknorrisapp-63483.appspot.com</string>
+    <string name="project_id" translatable="false">chucknorrisapp-63483</string>
+</resources>

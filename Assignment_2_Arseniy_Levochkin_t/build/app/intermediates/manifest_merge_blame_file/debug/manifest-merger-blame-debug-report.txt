@@ -1,0 +1,237 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ChuckNorrisApp.ChuckNorrisApp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:connectivity_plus] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:connectivity_plus] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/connectivity_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+19
+20    <application
+21        android:name="android.app.Application"
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/742ff8eb8d05ace4bd06c22a1950399b/core-1.6.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/launcher_icon"
+25        android:label="ChuckNorrisApp"
+26        android:testOnly="true" >
+27        <activity
+28            android:name="com.example.helloworld.MainActivity"
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30            android:exported="true"
+31            android:hardwareAccelerated="true"
+32            android:launchMode="singleTop"
+33            android:theme="@style/LaunchTheme"
+34            android:windowSoftInputMode="adjustResize" >
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+43                android:name="io.flutter.embedding.android.NormalTheme"
+44                android:resource="@style/NormalTheme" />
+45
+46            <intent-filter>
+47                <action android:name="android.intent.action.MAIN" />
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+57            android:name="flutterEmbedding"
+58            android:value="2" />
+59
+60        <service
+60-->[:firebase_crashlytics] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[:firebase_crashlytics] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:34:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/71ebe9bd1ed3d63f35d9e85e1619f65b/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:16:13-37
+64            <meta-data
+64-->[:firebase_crashlytics] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+65-->[:firebase_crashlytics] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-130
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_crashlytics] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_crashlytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[:firebase_database] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+68-->[:firebase_database] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_database] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[:cloud_firestore] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+71-->[:cloud_firestore] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:cloud_firestore] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:firebase_core] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+74-->[:firebase_core] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_core] /Users/ganslev/Downloads/Assignment_2_Arseniy_Levochkin_t/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/71ebe9bd1ed3d63f35d9e85e1619f65b/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:17:13-19:85
+77                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+77-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/71ebe9bd1ed3d63f35d9e85e1619f65b/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:18:17-115
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/71ebe9bd1ed3d63f35d9e85e1619f65b/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:19:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-firestore:24.4.4] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/179b36d4adb7b4ee4b66ebbbb1d37047/jetified-firebase-firestore-24.4.4/AndroidManifest.xml:19:13-21:85
+80                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+80-->[com.google.firebase:firebase-firestore:24.4.4] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/179b36d4adb7b4ee4b66ebbbb1d37047/jetified-firebase-firestore-24.4.4/AndroidManifest.xml:20:17-111
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-firestore:24.4.4] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/179b36d4adb7b4ee4b66ebbbb1d37047/jetified-firebase-firestore-24.4.4/AndroidManifest.xml:21:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-database:20.1.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/445e568f380cd77344e03892649eda57/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+83                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+83-->[com.google.firebase:firebase-database:20.1.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/445e568f380cd77344e03892649eda57/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-database:20.1.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/445e568f380cd77344e03892649eda57/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+85            <meta-data
+85-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b9fcf022bd083138d403f4647e5964d1/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-installations:17.1.3] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/ddfce1e1ed85d8858f42940de9be71f8/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+89                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+89-->[com.google.firebase:firebase-installations:17.1.3] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/ddfce1e1ed85d8858f42940de9be71f8/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-installations:17.1.3] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/ddfce1e1ed85d8858f42940de9be71f8/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+91        </service>
+92
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5afb712a2ac6d760fbc637bc16df0687/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+94            android:name="androidx.window.extensions"
+94-->[androidx.window:window:1.0.0-beta04] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5afb712a2ac6d760fbc637bc16df0687/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0-beta04] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5afb712a2ac6d760fbc637bc16df0687/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+96        <uses-library
+96-->[androidx.window:window:1.0.0-beta04] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5afb712a2ac6d760fbc637bc16df0687/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+97            android:name="androidx.window.sidecar"
+97-->[androidx.window:window:1.0.0-beta04] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5afb712a2ac6d760fbc637bc16df0687/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+98            android:required="false" />
+98-->[androidx.window:window:1.0.0-beta04] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5afb712a2ac6d760fbc637bc16df0687/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+99
+100        <service
+100-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/af81752025f08cd28147829c97be6dc4/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+101            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+101-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/af81752025f08cd28147829c97be6dc4/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+102            android:exported="false" >
+102-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/af81752025f08cd28147829c97be6dc4/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+103            <meta-data
+103-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/af81752025f08cd28147829c97be6dc4/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+104                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+104-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/af81752025f08cd28147829c97be6dc4/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+105                android:value="cct" />
+105-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/af81752025f08cd28147829c97be6dc4/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+106        </service>
+107        <service
+107-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+108            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+108-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+109            android:exported="false"
+109-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" >
+110-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+111        </service>
+112
+113        <receiver
+113-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+114            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+114-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+115            android:exported="false" />
+115-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/4cea70c35e98c00f199ad219bbd46a5f/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:25:9-30:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:26:13-77
+119            android:authorities="com.ChuckNorrisApp.ChuckNorrisApp.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:27:13-72
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:28:13-43
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:29:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:20.3.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/1aa1dec0ce29fbf47d4ed129ac25ff08/jetified-firebase-common-20.3.1/AndroidManifest.xml:30:13-36
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:18.0.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:18.0.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:18.0.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:18.0.1] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/8b8fa2f47dc586dfd587fb7432533c0f/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+128
+129        <receiver
+129-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+130            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+130-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+131            android:enabled="true"
+131-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+132            android:exported="false" >
+132-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+133        </receiver>
+134
+135        <service
+135-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+136            android:name="com.google.android.gms.measurement.AppMeasurementService"
+136-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+138            android:exported="false" />
+138-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+139        <service
+139-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+140            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+140-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+141            android:enabled="true"
+141-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+143            android:permission="android.permission.BIND_JOB_SERVICE" />
+143-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/5bc33081a5b2f34d1a58aba5c0f8c541/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b7725ceb72d3cb67fa12a04ab5dbcd1e/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b7725ceb72d3cb67fa12a04ab5dbcd1e/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ganslev/.gradle/caches/transforms-2/files-2.1/b7725ceb72d3cb67fa12a04ab5dbcd1e/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+148    </application>
+149
+150</manifest>
